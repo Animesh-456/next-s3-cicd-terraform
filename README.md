@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# React S3 CI/CD with Terraform
 
-## Getting Started
+## 📌 Overview
+Deploy a React app to AWS S3 using GitHub Actions and provision infra using Terraform.
 
-First, run the development server:
 
+## About the project
+
+WordPond is a simple and elegant React app that fetches a new random English word and displays its meaning and example. Ideal for vocabulary building and word lovers.
+
+## ✨ Features
+- Random word generation
+- Fetches definition and usage from Free Dictionary API
+- Clean and responsive UI
+- Option to save favorites (WIP)
+
+## ⚙️ Tech Stack
+- React
+- Axios
+- [dictionaryapi.dev](https://dictionaryapi.dev/)
+- Tailwind CSS (optional)
+- AWS S3
+- GitHub Actions
+- Terraform
+
+## 🔧 Features
+- CI/CD with GitHub Actions
+- S3 static site hosting
+- Terraform infra as code
+
+## 🏗️ Architecture Diagram
+
+
+## 🚀 Deployment Steps
+1. Clone repo
+2. `npm run build`
+3. GitHub Actions auto-deploy to S3
+4. Terraform provisions S3 + hosting
+
+## 🧹 Cleanup
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+terraform destroy
