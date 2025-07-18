@@ -1,7 +1,7 @@
-# React S3 CI/CD with Terraform
+# Nextjs S3 CI/CD with Terraform
 
 ## 📌 Overview
-Deploy a React app to AWS S3 using GitHub Actions and provision infra using Terraform.
+Deploy a Next app to AWS S3 using GitHub Actions and provision infra using Terraform.
 
 
 ## About the project
@@ -15,9 +15,9 @@ WordPond is a simple and elegant React app that fetches a new random English wor
 - Option to save favorites (WIP)
 
 ## ⚙️ Tech Stack
-- React
+- Nextjs
 - Axios
-- [dictionaryapi.dev](https://dictionaryapi.dev/)
+- [https://dummyjson.com/quotes/random](https://dummyjson.com/quotes/random)
 - Tailwind CSS (optional)
 - AWS S3
 - GitHub Actions
