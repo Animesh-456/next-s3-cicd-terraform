@@ -52,7 +52,7 @@ export default function Home() {
             className="px-6 py-2 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition cursor-pointer shadow-lg"
             disabled={loading}
           >
-            {loading ? 'Loading...' : 'Discover New Word'}
+            {loading ? 'Loading...' : 'Discover New Quote'}
           </button>
         </div>
       </div>
