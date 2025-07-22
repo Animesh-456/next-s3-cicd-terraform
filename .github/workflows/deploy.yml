@@ -47,4 +47,4 @@ jobs:
           aws-region: ap-south-1
 
       - name: Sync to S3
-        run: aws s3 sync out/ s3://wordpond-next-bucket/ --delete
+        run: aws s3 sync out/ s3://my-nextjs-bucket-2025/ --delete
