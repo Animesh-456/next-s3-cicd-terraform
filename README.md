@@ -29,7 +29,7 @@ WordPond is a simple and elegant React app that fetches a new random English wor
 - Terraform infra as code
 
 ## 🏗️ Architecture Diagram
-
+<img src="./s3.drawio.png" alt="Alt text for the diagram"/>   
 
 ## 🚀 Deployment Steps
 1. Clone repo
